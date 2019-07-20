@@ -18,7 +18,7 @@ node {
              //sh 'mvn clean package sonar:sonar' 
              sh 'mvn clean verify sonar:sonar ' +
              ' -Dsonar.host.url=https://sonarcloud.io ' +
-             ' -Dsonar.organization=chandru1-itrain '+ 
+             ' -Dsonar.organization=sonar100 '+ 
              ' -Dsonar.login=277c954ed40f3aaf5728a5fb3ddd79552a219b8a ' +
              ' -Dsonar.links.ci='
      
